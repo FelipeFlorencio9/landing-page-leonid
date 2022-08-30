@@ -98,7 +98,7 @@ footer{
     color: var(--white);
 }
 
-@media (max-width:960px){
+@media (max-width:900px){
     :root{
         --spacedefault: 30px
     }
@@ -131,7 +131,7 @@ footer{
 
 }
 
-@media (max-width:640px){
+@media (max-width:600px){
     .pikachu-image{
         width: 100vw;
         transform: translate(-37%, -65%)
@@ -139,6 +139,7 @@ footer{
     main{
         align-items: center;
         transform: translateX(-10.5%);
+        grid-auto-columns: 100% ;
     }
     .title{
         place-self: start center;
