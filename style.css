@@ -122,11 +122,41 @@ footer{
 
     }
     .pikachu-image{
-        transform: translate(-50%, -60%)
+        transform: translate(-50%, -60%);
 
     }
     footer{
         display: none;
-    };
+    }
 
-};
+}
+
+@media (max-width:640px){
+    .pikachu-image{
+        width: 100vw;
+        transform: translate(-37%, -65%)
+    }
+    main{
+        align-items: center;
+        transform: translateX(-10.5%);
+    }
+    .title{
+        place-self: start center;
+        font-size: 10vw;
+
+    }
+
+    .description__title{
+        font-size: 10vw;
+    }
+    .description__text{
+        display: none;
+    }
+    .action{
+        transform: rotate(-40%, -40%);
+        box-sizing: none;
+        place-self: end center;
+        text-align: center;
+    }
+    
+}
